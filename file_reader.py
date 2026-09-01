@@ -5,7 +5,7 @@ class File_Reader:
     @staticmethod
     def extract_text(filepath):
         """
-        Methiid that extracts text from a file
+        Method that extracts text from a file
         """
         try:
             with open(filepath, "r", encoding="utf8") as txt:
